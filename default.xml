@@ -24,7 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod-11/android" remote="anon" revision="cm-11.0" />
+  <project path="android" name="android" remote="anon" revision="cm-11.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
@@ -272,14 +272,14 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="anon" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod-11/android_frameworks_native" remote="anon" revision="cm-11.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="anon" revision="cm-11.0" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -306,10 +306,10 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod-11/android_hardware_libhardware" remote="anon" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod-11/android_hardware_libhardware_legacy" remote="anon" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="anon" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="anon" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod-11/android_hardware_qcom_audio-caf" remote="anon" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="anon" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
@@ -320,7 +320,7 @@
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="CyanogenMod-11/android_hardware_qcom_power" remote="anon" revision="cm-11.0" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk"  />
