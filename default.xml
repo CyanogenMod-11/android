@@ -58,7 +58,7 @@
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="anon" revision="cm-11.0" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7tul" remote="anon" revision="cm-11.0" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="anon" revision="cm-11.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="anon" revision="cm-11.0" />
   <project path="vendor/cm/proprietary" name="vendor_cm_proprietary" remote="anon" revision="cm-11.0" />
