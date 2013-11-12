@@ -58,7 +58,7 @@
 
   
   <!--Device trees for supported devices-->
-  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="anon" revision="cm-11.0" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7ul" name="android_device_htc_m7tul" remote="anon" revision="cm-11.0" />
