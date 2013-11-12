@@ -52,6 +52,17 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
+
+  
+  <!--Device trees for supported devices-->
+  <project path="kernel/htc/m7" name="platform_kernel_htc_m7" remote="anon" revision="cm-11.0" />
+  <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="anon" revision="cm-11.0" />
+  <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="anon" revision="cm-11.0" />
+  <project path="device/htc/m7ul" name="platform_device_htc_m7tul" remote="anon" revision="cm-11.0" />
+  <project path="device/htc/m7att" name="platform_device_htc_m7att" remote="anon" revision="cm-11.0" />
+  <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="anon" revision="cm-11.0" />
+
+
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" />
