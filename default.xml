@@ -64,6 +64,7 @@
   <project path="device/htc/m7ul" name="platform_device_htc_m7tul" remote="anon" revision="cm-11.0" />
   <project path="device/htc/m7att" name="platform_device_htc_m7att" remote="anon" revision="cm-11.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
+  <project path="vendor/cm/proprietary" name="vendor_cm_proprietary" remote="anon" revision="cm-11.0" />
   <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="anon" revision="cm-11.0" />
 
 
